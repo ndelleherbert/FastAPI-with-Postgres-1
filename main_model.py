@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 from typing import Optional
 
+
 class Blog(BaseModel):
     user_id: int
     user_name: str

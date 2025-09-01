@@ -6,6 +6,6 @@ from sqlalchemy.orm import sessionmaker
 db = "postgresql://postgres:admin@localhost/blog"
 engine = create_engine(db, echo=True)
 
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+SessionLocal = sessionmaker(bind=engine)
 
 Base = declarative_base()
