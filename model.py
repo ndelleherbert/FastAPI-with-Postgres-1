@@ -3,8 +3,8 @@ from database import Base
 
 class Blog(Base):
     __tablename__ = "Blog"
-    user_id = Column(Integer, primary_key=True, autoincrement=True)
-    user_name = Column(String(255), nullable=False, unique=True)
+    user_id = Column(Integer, primary_key=True, autoincrement=True, index=True)
+    user_name = Column(String(255), nullable=False, unique=True,index=True)
     user_email = Column(String, nullable=False, unique=True)
     user_password = Column(String, nullable=False, unique=True)
     user_age = Column(Integer, nullable=False)
