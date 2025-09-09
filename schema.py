@@ -1,8 +1,7 @@
 from pydantic import BaseModel
 from typing import Optional
 
-
-class Blog(BaseModel):
+class BlogBase(BaseModel):
     user_name: str
     user_email: str
     user_password: str
@@ -11,25 +10,14 @@ class Blog(BaseModel):
     user_phone: Optional[int] = None
     on_offer: Optional[bool] = False
 
-
-class sub_blog(Blog):
-    id : int
-
-class create_blog(Blog):
-    pass
-
-class update_blog(Blog):
-    pass
-
-class delete_blog(Blog):
-    pass
-
-class get_blog(sub_blog):
-    pass
-
-
-
-
     class Config:
         orm_mode = True
-    
+
+class Blog(BlogBase):
+    user_id: int
+
+class CreateBlog(BlogBase):
+    pass
+
+class UpdateBlog(BlogBase):
+    pass

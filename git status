@@ -1,0 +1,44 @@
+[33mcommit 9c5e7c34125906ae22eccfec50eef9b193575cc9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 065e5c1 731c521
+Author: Ndelle Herbert <ndelleh04@gmail.com>
+Date:   Tue Sep 2 02:29:08 2025 +0100
+
+    merge local with remote branch
+
+[33mcommit 731c521ddb76a39425f9be77cf31c5fae8835598[m
+Author: Ndelle Njumbe Herbert <66333816+ndelleherbert@users.noreply.github.com>
+Date:   Tue Sep 2 02:20:51 2025 +0100
+
+    Delete FastAPI with Postgres 1.sln
+
+[33mcommit 835fe4c92b3eabdde92e89bc61ae29826bc0e098[m
+Author: Ndelle Njumbe Herbert <66333816+ndelleherbert@users.noreply.github.com>
+Date:   Tue Sep 2 02:20:33 2025 +0100
+
+    Delete FastAPI with Postgres 1.pyproj
+
+[33mcommit 065e5c1084cb5cc2124dcda96e27fb32d079652c[m
+Author: Ndelle Herbert <ndelleh04@gmail.com>
+Date:   Mon Sep 1 13:15:46 2025 +0100
+
+    Commited after removing the vscode file which has been preventing my files from adding to git all together without adding them independently
+
+[33mcommit dbe4e4c50a85332a684d27f9a73149e12c02d7ef[m
+Author: Ndelle Njumbe Herbert <66333816+ndelleherbert@users.noreply.github.com>
+Date:   Sat Aug 30 08:20:27 2025 +0100
+
+    FastAPI with Postgres 1.pyproj commit
+
+[33mcommit 260d3b4e13d228ed38fe42888bef687babfaa4a2[m
+Author: Ndelle Njumbe Herbert <66333816+ndelleherbert@users.noreply.github.com>
+Date:   Sat Aug 30 08:18:57 2025 +0100
+
+    FastAPI with Postgres. 1sln added to project
+    
+    This is the compilation of the entire project, and running this enhances the execution of the entire project
+
+[33mcommit 9b129da744eff4bdac27fe0b74d8109296aa7198[m
+Author: Ndelle Herbert <ndelleh04@gmail.com>
+Date:   Fri Aug 29 23:21:16 2025 +0100
+
+    My First Commit

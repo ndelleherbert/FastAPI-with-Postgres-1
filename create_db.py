@@ -1,6 +1,7 @@
-from database import Base, engine
+#from database import engine
+#import database
 
 
-print("creating database...")
 
-Base.metadata.create_all(engine)
+#print("creating database...")
+#database.Base.metadata.create_all(engine)
